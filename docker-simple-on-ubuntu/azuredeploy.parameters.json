@@ -5,8 +5,8 @@
     "adminUsername": {
       "value": "ubuntu"
     },
-    "adminPassword": {
-      "value": "GEN-PASSWORD"
+    "sshKeyData": {
+      "value": "GEN-SSH-PUB-KEY"
     },
     "dnsNameForPublicIP": {
       "value": "GEN-UNIQUE"
