@@ -59,8 +59,8 @@
     "publicIPAddressType": "Dynamic",
     "vmName": "MyDockerVM",
     "virtualNetworkName": "MyVNETD",
-    "subnet1Name": "Subnet-1",
-    "subnet1Prefix": "10.0.0.0/24",
+    "subnetName": "Subnet",
+    "subnetPrefix": "10.0.0.0/24",
     "nicName": "sshNIC",
     "publicIPAddressName": "sshPublicIP",
     "publicIPAddressType": "Dynamic",
@@ -68,7 +68,7 @@
     "networkSecurityGroupName": "networkSecurityGroup1",
     "sshKeyPath": "[concat('/home/',parameters('adminUsername'),'/.ssh/authorized_keys')]",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
-    "subnet1Ref": "[concat(variables('vnetID'),'/subnets/',variables('subnet1Name'))]",    "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
+    "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]"
   },
   "resources": [
     {
