@@ -8,11 +8,11 @@
         "description": "Username for the Virtual Machine."
       }
     },
-    "adminPassword": {
-      "type": "securestring",
+    "sshKeyData": {
+      "type": "string",
       "metadata": {
-        "description": "Password for the Virtual Machine."
-      }
+        "description": "SSH rsa public key file as a string."
+      },
     },
     "dnsNameForPublicIP": {
       "type": "string",
