@@ -36,6 +36,7 @@
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "subnet1Ref": "[concat(variables('vnetID'),'/subnets/',variables('subnet1Name'))]",
     "OSDiskName": "osdiskfordockersimple",
+    "extensionName": "DockerExtension",
     "apiVersion": "2015-06-15"
   },
   "resources": [
