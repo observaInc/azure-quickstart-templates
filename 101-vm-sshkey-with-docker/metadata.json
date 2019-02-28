@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Deploy a Virtual Machine with SSH rsa public key and docker",
+  "description": "This template allows you to create a Virtual Machine with SSH rsa public key and docker",
+  "summary": "Deploy a Virtual Machine with SSH rsa public key an docker",
+  "githubUsername": "observaInc",
+  "dateUpdated": "2015-06-05"
+}
+
+
